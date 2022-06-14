@@ -1,0 +1,106 @@
+.main-info{
+  display: flex;
+  /* position: relative; */
+}
+.line{
+  margin-top: 40px;
+  width: 100px;
+  height: 2px;
+  background-color: black;
+}
+.title,.title-low{
+  font-size: 22px;
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 10px;
+}
+.title-low{
+  margin-top: 40px;
+}
+.block-name{
+  display: flex;
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+.block-name__title{
+  margin-right: 10px;
+  margin-top: 20px;
+}
+.block-name__input{
+  display: block;
+  padding: 6px;
+  width: 350px;
+  margin-top: 10px;
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  text-overflow: ellipsis;
+}
+textarea.block-name__input{
+  padding: 6px;
+  width: 500px;
+  height: 110px;
+}
+li .block-name__input{
+  margin: 0 0 10px 10px;
+}
+.contacts-info{
+  padding-left: 40px;
+}
+.button-save{
+  border: 0;
+  width: 40px;
+  height: 40px;
+  background-color: #94DA7B;
+  background-image: url('./icon/success.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-left: 5px;
+}
+.button-save:hover{
+  background-color: #60D636;
+}
+.button-deleate{ 
+  border: 0;
+  width: 40px;
+  height: 40px;
+  background-color: #EA6D6D;
+  background-image: url('./icon/close.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+  margin-left: 5px;
+}
+.button-deleate:hover{
+  background-color: #F04242;
+}
+.message{
+  position: fixed;
+  left: 50%; bottom: 20px;
+  margin: auto;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 30px;
+  border-radius: 50px;
+  background-color: #60D636;
+  color: rgb(0, 0, 0);
+  font-family: 'Roboto', sans-serif;
+}
+.message.active{
+  display: flex;
+}
+.rules-add{
+  margin-top: 20px;
+  font-size: 17px;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+}
+.review-rules{
+  padding-left: 40px;
+}
+.rules{
+  display: flex;
+}

@@ -1,0 +1,8 @@
+@media only screen and (max-width: 428px) {
+  .footer__name{
+    font-size: 30px;
+  }
+  .footer__text{
+    font-size: 22px;
+  }
+}

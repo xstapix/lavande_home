@@ -1,0 +1,127 @@
+
+.background{
+  background: url('./img/hello.jpg') ;
+  background-size: cover;
+  height: 100vh;
+}
+.hello{
+  position: absolute;
+  margin: auto;
+  top: 0; left: 0; bottom: 0; right: 0;
+  top: 0;
+  width: 1200px;
+  padding: 400px 24px 0;
+}
+.hello__name{
+  font-size: 96px;
+  font-family: 'Marcellus', serif;
+  color: rgb(255, 255, 255);
+}
+.hello__text{
+  font-size: 25px;
+  font-family: 'Cormorant Garamond', serif;
+  color: rgb(255, 255, 255);
+}
+.hello__button{
+  width: 190px;
+  height: 45px;
+  margin-top: 38px;
+  background-color: #604A82;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  font-family: 'Cormorant Garamond', serif;
+  color: #ffffff;
+  cursor: pointer;
+}
+.hello__button:hover{
+  background-color: #72589A;
+}
+.description{
+  height: 100%;
+  padding: 171px 24px;
+}
+.description__name{
+  text-align: center;
+  font-size: 64px;
+  font-family: 'Marcellus', serif;
+  color: #00133F;
+  margin-bottom: 39px;
+}
+.description__text{
+  width: 912px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Cormorant Garamond', serif;
+  color: #00133F;
+}
+.benefits{
+  height: 100%;
+  padding: 92px 24px;
+  margin: 0 auto;
+}
+.benefits__rooms{
+  margin-top: 72px;
+}
+.benefits__main__name,.benefits__main__text{
+  width: 712px;
+  margin: 0 auto;
+  text-align: center;
+  font-family: 'Cormorant Garamond', serif;
+  color: #00133F;
+}
+.benefits__main__name{
+  font-size: 43px;
+}
+.benefits__main__text{
+  margin-top: 39px;
+  font-size: 25px;
+}
+.rooms__item{
+  display: flex;
+  justify-content: space-between;
+}
+.backout{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0; top: 0; bottom: 0; right: 0;
+  transition-duration: .5s;
+  z-index: 10;
+}
+.backout:hover{
+  opacity: 1;
+  background: rgba(0, 0, 0, 0.178);
+  transition-duration: .5s;
+}
+.photo_f {
+  background-image: url('./img/4.jpg');
+  background-size: cover;
+}
+.photo_t {
+  background-image: url('./img/3.jpg');
+  background-size: cover;
+}
+.rooms__item__body{
+  position: relative;
+  width: 49vw;
+  height: 700px;
+  padding: 550px 50px 0;
+  cursor: pointer;
+}
+.item__description__name{
+  position: absolute;
+  z-index: 12;
+  font-size: 76px;
+  font-family: 'Cormorant Garamond', serif;
+  color: white;
+}
+.booking{
+  width: 1200px;
+  height: 100%;
+  margin: 0 auto;
+  padding: 74px 24px;
+}

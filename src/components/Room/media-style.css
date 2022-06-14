@@ -1,0 +1,20 @@
+@media only screen and (max-width: 428px) {
+  .room{
+    padding: 71px 0 0;
+  }
+  .room__name{
+    padding: 15px 24px;
+    font-size: 30px;
+  }
+  .room__info{
+    padding: 24px 0;
+  }
+  .room__info p{
+    padding: 0 25px;
+    font-size: 22px;
+  }
+  .room__description{
+    padding: 56px 24px 0;
+    width: 100%;
+  }
+}

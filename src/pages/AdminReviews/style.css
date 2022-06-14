@@ -1,0 +1,39 @@
+.allReviews__name,.newReview__name{
+  font-size: 22px;
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 40px;
+}
+.allReviews .review, .newReview .review{
+  position: relative;
+  padding: 0 0 27px;
+}
+.review__item__button{
+  display: flex;
+}
+.button__pass, .button__reject{
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+.button__pass{
+  top: 1px; right: 50px;
+  background-color: #94DA7B;
+  background-image: url('./icon/success.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.button__pass:hover{
+  background-color: #60D636;
+}
+.button__reject{
+  top: 1px; right: 1px;
+  background-color: #EA6D6D;
+  background-image: url('./icon/close.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.button__reject:hover{
+  background-color: #F04242;
+}

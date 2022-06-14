@@ -1,0 +1,30 @@
+.contacts{
+  height: 100%;
+  padding: 84px 0 0;
+}
+.contacts__name{
+  text-align: center;
+  font-size: 46px;
+  font-family: 'Cormorant Garamond', serif;
+  color: white;
+  background-color: #604A82;
+  padding: 110px 24px;
+}
+.contacts__text{
+  width: 584px;
+  margin: 0 auto;
+  padding: 100px 24px 35px;
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Cormorant Garamond', serif;
+  color: #00133F;
+}
+.contacts__phone{
+  width: 500px;
+  margin: 0 auto;
+  padding: 0 24px 100px;
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Cormorant Garamond', serif;
+  color: #00133F;
+}

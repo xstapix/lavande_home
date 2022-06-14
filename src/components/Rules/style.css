@@ -1,0 +1,27 @@
+.booking__rules{
+  padding: 50px 0 0;
+}
+.booking__name{
+  font-size: 43px;
+  text-align: center;
+  font-family: 'Cormorant Garamond', serif;
+  color: #00133F;
+  margin-bottom: 62px;
+}
+.hotelBdraivForm{
+  width: 500px;
+  height: 550px;
+}
+.booking__rules__name{
+  font-size: 43px;
+  text-align: center;
+  font-family: 'Cormorant Garamond', serif;
+  color: #00133F;
+}
+.booking__rules__rules{
+  width: 560px;
+  margin: 38px auto 0;
+  font-size: 25px;
+  font-family: 'Cormorant Garamond', serif;
+  color: #00133F;
+}

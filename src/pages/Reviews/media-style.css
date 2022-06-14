@@ -1,0 +1,24 @@
+
+@media only screen and (max-width: 428px) {
+  .reviews{
+    padding: 71px 0 0;
+  }
+  .reviews__name{
+    padding: 15px 24px;
+    font-size: 30px;
+  }
+  .reviews__new{
+    width: 100%;
+  }
+  .form__content{
+    width: 90%; 
+    height: 500px;
+    padding: 24px;
+  }
+  .content__name__text{
+    font-size: 30px;
+  }
+  .form__content__input, .form__content__stars, .form__content__comment{
+    margin-top: 25px;
+  }
+}

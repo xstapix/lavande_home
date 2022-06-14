@@ -1,0 +1,19 @@
+.footer{
+  width: 100%;
+  height: 100%;
+  padding: 28px 24px;
+  background-color: #604A82;
+}
+.footer__name{
+  text-align: center;
+  font-size: 36px;
+  font-family: 'Marcellus', serif;
+  color: white;
+}
+.footer__text{
+  margin-top: 17px;
+  text-align: center;
+  font-size: 22px;
+  font-family: 'Cormorant Garamond', serif;
+  color: white;
+}

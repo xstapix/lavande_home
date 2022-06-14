@@ -1,0 +1,16 @@
+@media only screen and (max-width: 428px) {
+  .header__body{
+    width: 100%;
+    height: 71px;
+    padding: 0 24px;
+  }
+  .header__name{
+    font-size: 30px;
+  }
+  .header__nav__text{
+    font-size: 22px;
+  }
+  .header__nav__text::after{
+    display: none;
+  }
+}

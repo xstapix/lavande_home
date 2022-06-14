@@ -1,0 +1,40 @@
+.admin__header{
+  position: fixed;
+  width: 100%;
+  padding: 24px;
+  background-color: #604A82;
+  z-index: 100;
+}
+.admin__header__name{
+  color: white;
+  font-size: 25px;
+  font-family: 'Roboto', sans-serif;
+}
+.admin-panel{
+  display: flex;
+  z-index: 100;
+}
+.panel__nav{
+  position: fixed;
+  margin-top: 78px;
+  width: 102px;
+  height: 91.7vh;
+  background-color: #604A82;
+}
+.panel__nav__item{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 102px;
+  height: 80px;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  cursor: pointer;
+}
+.panel__nav__item:hover{
+  background-color: #72589A;
+}
+.panel__setting{
+  padding: 108px 30px 30px 132px;
+}

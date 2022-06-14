@@ -1,0 +1,19 @@
+@media only screen and (max-width: 428px) {
+  .contacts{
+    padding: 71px 0 0;
+  }
+  .contacts__name{
+    padding: 15px 24px;
+    font-size: 30px;
+  }
+  .contacts__text,.contacts__phone{
+    width: 100%;
+    font-size: 22px;
+  }
+  .contacts__text{
+    padding: 57px 24px;
+  }
+  .contacts__phone{
+    padding: 0 24px 57px;
+  }
+}
